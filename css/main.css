@@ -4,14 +4,35 @@ body {
 }
 
 #board {
-    background-color: aqua;
-    height: 100vh;
+    background-color: rgb(58, 58, 119);
+    height: 90vh;
     position: relative;
+    overflow: hidden;
 }
 
 #player {
-    background-color: green;
+    background-color: rgb(46, 123, 46);
     position: absolute;
-    bottom: 0;
-    left: 0;
+}
+
+.obstacle {
+    background-color: rgb(231, 16, 231);
+    position: absolute;
+}
+
+#points {
+    background-color: rgb(58, 58, 119);
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(30, 37, 20);
+    
+    
+}
+
+#points span {
+    color: rgb(179, 221, 15);
+    border: 2px solid rgb(86, 143, 21);
+    border-radius: 5px;
 }
